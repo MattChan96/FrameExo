@@ -3,18 +3,7 @@
   }
   
   body {
-    font: 17px Roboto;
-    margin: 0;
-  }
-  
-  .header {
-    padding: 60px;
-    font: 20px Playfair Display;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: cover;
-    background-size: 1550px 350px;  
-    color: white;
+    background-color: rgb(89, 158, 98)
   }
   
   .header h1 {
@@ -22,31 +11,8 @@
     Text-align: center;
   }
   
-  .navbar {
-    overflow: hidden;
-    position: sticky;
-    position: -webkit-sticky; 
-    top: 0;
-  }
-  
-  .navbar a {
-    float: right;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 20px;
-    font-family: Arial;
-    text-decoration: none;
-  }
-  
-  .navbar a:hover {
-    background-color: #f5e8dd;
-    color: white;
-  }
-  
-  .navbar a.active {
-    background-color: #f5e8dd;
-    color: white;
+  nav.navbar navbar-expand-lg bg-light {
+    background-color: rgb(89, 158, 98);
   }
   
   .row {  
