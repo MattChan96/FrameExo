@@ -50,7 +50,7 @@ body.ingrediants {
     background-color: var(--sage);
 }
 
-body.ingrediants.sand {
+.sand {
     background-color: var(--sand);
     color: salmon;
     width: 50%;
