@@ -19,6 +19,7 @@
   
   .header h1 {
     font: 60px Playfair Display;
+    Text-align: center;
   }
   
   .navbar {
@@ -105,6 +106,12 @@
     border: 2px solid transparent;
     border-color: black; 
   }
+
+  .img {
+    display: block;
+    height: 400px;
+    width: 300px;
+  }
   
   .fa {
     padding: 10px;
@@ -185,3 +192,7 @@
     clear: both;
   }
   
+  .delivery {
+    height: 200px;
+    width: 200px;
+  }
