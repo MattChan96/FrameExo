@@ -1,4 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 body {
-    background-color: rgb(89, 158, 98);
+  background-color: rgb(89, 158, 98);
 }
 
+h1 {
+  text-align: center;
+  color: #7c795d;
+  font-family: "Merriweather", serif;
+  font-size: 7rem;
+  color: antiquewhite;
+  text-shadow: 5px 5px 0px #eb452b;
+}
+
+.navbar {
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  text-decoration: underline black;
+}
+
+p {
+  border: 1px solid aliceblue;
+  width: 500px;
+  text-align: center;
+  margin-left: 10%;
+  border-width: 5px;
+  border-radius: 10px;
+  font-style: italic;
+}
