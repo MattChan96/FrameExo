@@ -58,10 +58,13 @@ body {
     text-align: center;
     border: solid var(--sage) 1px;
     border-radius: 10px;
-    margin-bottom: 10px;
 }
 
 h1 {
     font-family: 'Lobster', cursive;
 >>>>>>> dd8fcb9ac84ac25b1097aa4705f6c3fa2d050861
+}
+
+.card, .accordian {
+    margin: 10px;
 }
