@@ -24,6 +24,10 @@ h2 {
   margin-bottom: 20px;
   margin-left: 100px;
   text-decoration: underline black;
+  color: #7c795d;
+  font-family: "Merriweather", serif;
+  color: antiquewhite;
+  text-shadow: 2px 2px 2px #eb452b;
 }
 
 p {
@@ -34,4 +38,5 @@ p {
   border-width: 5px;
   border-radius: 10px;
   font-style: italic;
+  font-size: 30px;
 }
