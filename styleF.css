@@ -7,7 +7,7 @@
   }
   
   .header h1 {
-    font: 60px Playfair Display;
+    font: 60px;
     Text-align: center;
   }
   
@@ -19,58 +19,18 @@
     display: flex;
     flex-wrap: wrap;
   }
+    /*Main column */
+    .side {
+      flex: 78.5%;
+      background-color: white;
+      padding: 40px;
+    }
   
-  /*Main column */
-  .side {
-    flex: 78.5%;
-    background-color: white;
-    padding: 40px;
-  }
-  
-  /* Side column */
   .main {   
     flex: 21.5%;
     text-align: center;
     background-color: #f5e8dd;
     padding: 40px;
-  }
-  
-  .form {
-    width: 500px;
-    border-radius: 5px;
-    background-color: white;
-    margin: 0px;
-    text-align: left;
-    box-sizing: border-box;
-    
-  }
-  
-  #submit {
-    width: 30%;
-    background-color: #326324;
-    color: white;
-    padding: 7px 40px;
-    margin: 5px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: Roboto;
-    font-size: 16px;
-  }
-  
-  #submit:hover {
-    background-color: #45a049;
-  }
-  
-  .image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 260px;
-    width: 200px;
-    image-rendering: auto;
-    border: 2px solid transparent;
-    border-color: black; 
   }
 
   .img {
@@ -87,30 +47,12 @@
     text-decoration: none;
   }
   
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  .fa-skype {
-    background: #00aff0;
-    color: white;
-  }
-  
   .footer {
     width: 100%;
     padding: 10px;
     text-align: center;
-    background: #D7CCC8;
-    color: grey;
+    background: rgb(89, 158, 98);
+    color: white;
   }
   div.gallery {
     border: 1px solid #ccc;
