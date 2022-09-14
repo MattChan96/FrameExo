@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 body.home {
-  background-color: rgb(89, 158, 98);
+    background-color: rgb(89, 158, 98);
 }
 
 body.home > h1 {
@@ -15,33 +14,33 @@ body.home > h1 {
 }
 
 body.home > .navbar {
-  border-radius: 10px;
-  width: 80%;
-  margin: auto;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
 }
 
 body.home > h2 {
-  margin-top: 50px;
-  margin-bottom: 20px;
-  margin-left: 100px;
-  text-decoration: underline black;
-  color: #7c795d;
-  font-family: "Merriweather", serif;
-  color: antiquewhite;
-  text-shadow: 2px 2px 2px #eb452b;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    text-decoration: underline black;
+    color: #7c795d;
+    font-family: "Merriweather", serif;
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px #eb452b;
 }
 
 body.home > p {
-  border: 1px solid aliceblue;
-  width: 500px;
-  text-align: center;
-  margin-left: 10%;
-  border-width: 5px;
-  border-radius: 10px;
-  font-style: italic;
-  font-size: 30px;
+    border: 1px solid aliceblue;
+    width: 500px;
+    text-align: center;
+    margin-left: 10%;
+    border-width: 5px;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 30px;
 }
-=======
+
 :root {
     --sage: rgb(89, 158, 98);
     --sand: rgb(239, 225, 180)
@@ -51,7 +50,7 @@ body.ingrediants {
     background-color: var(--sage);
 }
 
-body.ingrediants > .sand {
+body.ingrediants.sand {
     background-color: var(--sand);
     color: salmon;
     width: 50%;
@@ -63,7 +62,6 @@ body.ingrediants > .sand {
 
 body.ingrediants > h1 {
     font-family: 'Lobster', cursive;
->>>>>>> dd8fcb9ac84ac25b1097aa4705f6c3fa2d050861
 }
 
 .card, .accordian {
